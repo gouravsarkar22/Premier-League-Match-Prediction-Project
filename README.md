@@ -109,9 +109,10 @@ but there is no multicollinearity.
 **Key Insights**
 
 1. Random Forest achieved the best performance with 61% accuracy
-2. Home advantage is significant (40.7% homw wins vs 34.73% away wins)
-3. Shooting accuracy and shot aefficiency are the most predictive features
-4. Total shots and total goals show strong correlation with match outcomes
+2. Prevented data leakage through systematic feature auditing
+3. Home advantage is significant (40.7% homw wins vs 34.73% away wins)
+4. Shooting accuracy and shot aefficiency are the most predictive features
+5. Total shots and total goals show strong correlation with match outcomes
 
 
 
@@ -159,6 +160,9 @@ This project generates comprehensive visualizations including:
 3. Class Imbalance - Football match outcomes are naturally imbalanced (more home wins).
 4. Model Selection - Ensemble methods (Random Forest, following with voting classifier with 58% accuracy) perform best for this type of data.
 5. Evaluation - Cross-validation is crucial for reliable performance estimates
+6. Overfitting - High accuracy (>75%) in football prediction indicates data leakage
+7. Transformation - Log transformation should be applied selectively, not universally.
+8. Compatibility - Professional betting modles achieve 65-70%, whereas our 61% is competitive and realistic.
 
 
 
