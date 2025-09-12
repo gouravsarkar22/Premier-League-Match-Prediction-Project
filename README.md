@@ -139,15 +139,15 @@ scikit-learn - Machine learning
 
 This project generates comprehensive visualizations including:
 
-1. Match results distribution
-2. Home vs away goals kernel density estimation
-3. Home advantage analysis
-4. Shots and goals correlation scatter plots
+1. Match results distribution bar chart
+2. Home vs away goals kernel density estimation plot
+3. Home advantage analysis bar chart
+4. Shots and goals correlation scatter plot
 5. Corner Distribution
 6. Cards distribution
 7. Correlation heatmap
-8. Boxplot for extreme values
-9. Log-transformed distribution
+8. Boxplots for extreme values
+9. Log-transformed distributions
 10. Confusion matrices for best models
 11. Feature importance rankings
 12. Model performance comparison bar charts
