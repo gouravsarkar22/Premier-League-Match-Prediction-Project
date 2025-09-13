@@ -63,6 +63,7 @@ HomeTeam/AwayTeam
 
 **Engineered Features** : 
 
+
 ~ Shooting Accuracy Metrics
 
 ~ Dominance Indicators
@@ -79,10 +80,13 @@ HomeTeam/AwayTeam
 
 **Methodology** 
 
+
  **- Data Preprocessing**
-1. Missing value handling with median imputation
-2. Duplicate removal and data type correction
+ 
+1. Checked for missing values (if any) and handled duplicates
+2. Measured key statistics for each numerical features 
 3. Outlier detection and treatment with log transformation
+4. Additional statistics for both home and away teams 
 
 **- Feature Engineering**
 1. Created 16 features from raw statistics
