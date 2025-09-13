@@ -114,7 +114,7 @@ but there is no multicollinearity.
 
 1. Random Forest achieved the best performance with 61% accuracy
 2. Prevented data leakage through systematic feature auditing
-3. Home advantage is significant (40.7% homw wins vs 34.73% away wins)
+3. Home advantage is significant (40.7% home wins vs 34.73% away wins)
 4. Shooting accuracy and shot aefficiency are the most predictive features
 5. Total shots and total goals show strong correlation with match outcomes
 
