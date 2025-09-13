@@ -162,7 +162,7 @@ This project generates comprehensive visualizations including:
 5. Evaluation - Cross-validation is crucial for reliable performance estimates
 6. Overfitting - High accuracy (>75%) in football prediction indicates data leakage
 7. Transformation - Log transformation should be applied selectively, not universally.
-8. Compatibility - Professional betting modles achieve 65-70%, whereas our 61% is competitive and realistic.
+8. Compatibility - Professional betting models achieve 65-70%, whereas our 61% is competitive and realistic.
 
 
 
