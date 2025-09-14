@@ -167,6 +167,7 @@ This project generates comprehensive visualizations including:
 6. Overfitting - High accuracy (>75%) in football prediction indicates data leakage
 7. Transformation - Log transformation should be applied selectively, not universally.
 8. Compatibility - Professional betting models achieve 65-70%, whereas our 61% is competitive and realistic.
+9. With limited one-season data, model accuracy is capped. With more seasons, performance could improve.
 
 
 
