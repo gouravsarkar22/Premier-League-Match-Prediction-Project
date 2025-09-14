@@ -162,7 +162,7 @@ This project generates comprehensive visualizations including:
 1. Domain Knowledge - Understanding football statistics significantly improves feature engineering.
 2. Feature Engineering - Created features often outperform raw statistics.
 3. Class Imbalance - Football match outcomes are naturally imbalanced (more home wins).
-4. Model Selection - Ensemble methods (Random Forest, following with Voting Classifier with 58% accuracy) perform best for this type of data.
+4. Model Selection - Ensemble methods (Random Forest, followed by Voting Classifier with 58% accuracy) perform best for this type of data.
 5. Evaluation - Cross-validation is crucial for reliable performance estimates
 6. Overfitting - High accuracy (>75%) in football prediction indicates data leakage
 7. Transformation - Log transformation should be applied selectively, not universally.
