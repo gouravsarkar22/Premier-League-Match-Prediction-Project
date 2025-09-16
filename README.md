@@ -2,6 +2,13 @@
 
 **Premier League 2024-25 Season : Match Outcome Prediction**
 
+# Motivation
+
+Football is one of the most unpredictable sports, yet understanding match outcomes has applications in:
+
+1. Sports Analytics - Helping coaches, analysts, and fans understand performance drivers.
+2. Betting Industry - Where small improvements in accuracy can make a big impact.
+3. Machine Learning Practice - Applying ML techniques to real-world, imbalanced classification problem.
 
 
 # Overview
@@ -41,12 +48,14 @@ This project tackles the challenging Premier League match outcomes (Win/Draw/Los
 
 # Dataset Information 
 
+**Source** : Premier League 2024-25 Season (Custom compiled dataset)
+
 The dataset contains Premier League 2024-25 season match data with the features such as 
 HomeTeam/AwayTeam
 
 ~ full-time home/away goals (FTHG/FTAG)
 
-~full-time result (H/D/A)
+~ full-time result (H/D/A)
 
  and the performance metrics are such as
 
@@ -71,11 +80,11 @@ HomeTeam/AwayTeam
 
 ~ Shooting Accuracy Metrics
 
-~ Dominance Indicators
+~ Dominance Indicators (shots, corners)
 
 ~ Shot Efficiency
 
-~ Discipline Metrics
+~ Discipline Metrics (cards, fouls)
 
 ~ Foul Balance
 
@@ -101,8 +110,9 @@ HomeTeam/AwayTeam
 
 
 **C. Multicollinearity Handling**
-~ Correlation analysis to check if if there is correlation of features with |r| > 0.8
-but there is no multicollinearity.
+
+ Correlation analysis to check if if there is correlation of features with |r| > 0.8
+but there is no strong multicollinearity.
 
 **D. Model Training & Evaluation**
 1. 70-30 train-test split with stratification
@@ -160,6 +170,12 @@ This project generates comprehensive visualizations including:
 10. Confusion matrices for best models
 11. Feature importance rankings
 12. Model performance comparison bar charts
+
+
+# Results
+
+1. We have the best performer model and that is Random Forest with 61% accuracy.
+2. Hybrid Ensemble Voting Classifier was close to RandomForest with 58% accuracy.
 
 
 # Key Learnings
