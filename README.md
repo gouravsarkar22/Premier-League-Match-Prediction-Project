@@ -2,9 +2,12 @@
 
 **Premier League 2024-25 Season : Match Outcome Prediction**
 
-A comprehensive machine learning project that predicts Premier League match outcomes using multiple classification algorithms. This project demonstrates the complete ML pipeline from data preprocessing to model development.
 
-**Overview** : This project tackles the challenging Premier League match outcomes (Win/Draw/Loss) using team performance statistics. The project implements and compares five machine learning algorithms:
+
+# Overview
+
+A comprehensive machine learning project that predicts Premier League match outcomes using multiple classification algorithms. This project demonstrates the complete ML pipeline from data preprocessing to model development.
+This project tackles the challenging Premier League match outcomes (Win/Draw/Loss) using team performance statistics. The project implements and compares five machine learning algorithms:
 
 **> Logistic Regression** - Linear probabilistic classifier
 
@@ -18,7 +21,7 @@ A comprehensive machine learning project that predicts Premier League match outc
 
 
 
-**Key Features** 
+# Key Features
 
 ~ Complete data preprocessing
 
@@ -36,7 +39,9 @@ A comprehensive machine learning project that predicts Premier League match outc
 
 
 
-**Dataset Information** : The dataset contains Premier League 2024-25 season match data with the features such as 
+# Dataset Information 
+
+The dataset contains Premier League 2024-25 season match data with the features such as 
 HomeTeam/AwayTeam
 
 ~ full-time home/away goals (FTHG/FTAG)
@@ -61,7 +66,7 @@ HomeTeam/AwayTeam
 
 
 
-**Engineered Features** : 
+# Engineered Features
 
 
 ~ Shooting Accuracy Metrics
@@ -78,7 +83,7 @@ HomeTeam/AwayTeam
 
 
 
-**Methodology** 
+# Methodology
 
 
  **- Data Preprocessing**
@@ -110,7 +115,7 @@ but there is no multicollinearity.
 
 
 
-**Key Insights**
+# Key Insights
 
 1. Random Forest achieved the best performance with 61% accuracy
 2. Prevented data leakage through systematic feature auditing
@@ -124,7 +129,7 @@ but there is no multicollinearity.
 
 
 
-**Technology Stack**
+# Technology Stack
 
 Python 3.13.7
 
@@ -139,7 +144,7 @@ scikit-learn - Machine learning
 
 
 
-**Visualizations**
+# Visualizations
 
 This project generates comprehensive visualizations including:
 
@@ -157,7 +162,7 @@ This project generates comprehensive visualizations including:
 12. Model performance comparison bar charts
 
 
-**Key Learnings**
+# Key Learnings
 
 1. Domain Knowledge - Understanding football statistics significantly improves feature engineering.
 2. Feature Engineering - Created features often outperform raw statistics.
