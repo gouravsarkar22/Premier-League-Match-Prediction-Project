@@ -86,25 +86,25 @@ HomeTeam/AwayTeam
 # Methodology
 
 
- **- Data Preprocessing**
+ **A. Data Preprocessing**
  
 1. Checked for missing values (if any) and handled duplicates
 2. Measured key statistics for each numerical features 
 3. Outlier detection and treatment with log transformation
 4. Additional statistics for both home and away teams 
 
-**- Feature Engineering**
+**B. Feature Engineering**
 1. Created 16 features from raw statistics
 2. Shot-based features (accuracy, efficiency)
 3. Dominance indicators (shots,corners)
 4. Discipline metrics (cards, fouls)
 
 
-**- Multicollinearity Handling**
+**C. Multicollinearity Handling**
 ~ Correlation analysis to check if if there is correlation of features with |r| > 0.8
 but there is no multicollinearity.
 
-**- Model Training & Evaluation**
+**D. Model Training & Evaluation**
 1. 70-30 train-test split with stratification
 2. 5-fold cross-validation for robust evaluation
 3. StandardScaler for linear models (LR, SVM)
